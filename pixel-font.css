@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "PixelFont";
+    src: url(slkscreb.ttf);
+}
+
+.pixel-font {
+    font-family: "PixelFont", sans-serif;
+}

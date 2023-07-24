@@ -1,0 +1,51 @@
+/* Your existing CSS styles */
+
+body {
+  font-family: "Courier New", monospace;
+  background-color: #000;
+  color: #00ff00;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ff0000;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 80%;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-messages {
+  height: 300px;
+  overflow-y: scroll;
+  /* Remove the blue border and set it to green */
+  border: 2px solid #0f0; /* Green (#0f0) */
+  padding: 10px;
+  background-color: #000;
+}
+
+.chat-messages p {
+  margin: 5px 0;
+}
+
+/* Rest of your existing CSS styles... */
